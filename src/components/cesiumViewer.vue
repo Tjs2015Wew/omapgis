@@ -114,15 +114,15 @@ export default {
         orientation : new Cesium.VelocityOrientationProperty(position),
 
         //Load the Cesium plane model to represent the entity
-        // model : {
-        //     uri : '../assets/Cesium_Air.gltf',
-        //     minimumPixelSize : 64
-        // },
-
-        point:{
-          color:Cesium.Color.RED,
-          pixelSize:5
+        model : {
+            uri : '/static/models/CesiumAir/Cesium_Air.gltf',
+            minimumPixelSize : 64
         },
+
+        // point:{
+        //   color:Cesium.Color.RED,
+        //   pixelSize:5
+        // },
 
         //Show the path as a pink line sampled in 1 second increments.
         path : {
