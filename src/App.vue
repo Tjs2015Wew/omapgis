@@ -148,7 +148,7 @@ export default {
 /* 保证浏览器全屏幕显示，没有多余的白边 */
 @headerHeight: 60px;
 @logoWidth: 200px;
-@contentPadWidth: 10px;
+@contentPadWidth: 1px;
 @footerHeight: 45px;
 html,
 body,

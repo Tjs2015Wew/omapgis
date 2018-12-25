@@ -119,11 +119,6 @@ export default {
             minimumPixelSize : 64
         },
 
-        // point:{
-        //   color:Cesium.Color.RED,
-        //   pixelSize:5
-        // },
-
         //Show the path as a pink line sampled in 1 second increments.
         path : {
             resolution : 1,

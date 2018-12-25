@@ -66,7 +66,6 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         to: config.dev.assetsSubDirectory,
         ignore: ['.*']
       },
-      ,
       {
         from: path.join(cesiumSource, cesiumWorkers),
          to: 'Workers'
